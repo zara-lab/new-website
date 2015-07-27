@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  color: #333;
+  background: #fff;
+  font-size: 16px;
+  font-family: "Tahoma", "Calibri", sans-serif;
+}
+
+.header {
+  height: 100px;
+  color: #ffffff;
+  border-top: 3px solid #00ff00;
+  background-color: rgba(0,0,0, .5);
+}
+
+.content {
+  min-height: 200px;
+  background-color: rgba(0,0,0, .1);
+}
+
+.footer {
+  height: 200px;
+  color: #ffffff;
+  background-color: rgba(0,0,0, .5);
+}
