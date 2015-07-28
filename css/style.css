@@ -7,19 +7,31 @@ html, body {
 }
 
 .header {
-  height: 100px;
   color: #ffffff;
   border-top: 3px solid #00ff00;
   background-color: rgba(0,0,0, .5);
 }
 
 .content {
-  min-height: 200px;
   background-color: rgba(0,0,0, .1);
 }
 
+.content .inner {
+  min-height: 400px;
+}
+
 .footer {
-  height: 200px;
   color: #ffffff;
   background-color: rgba(0,0,0, .5);
 }
+
+.footer .inner {
+  height: 200px;
+}
+
+.inner {
+  width: 800px;
+  height: 100px;
+  margin: 0 auto;
+}
+
