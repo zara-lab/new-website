@@ -30,8 +30,8 @@ html, body {
 }
 
 .inner {
-  width: 800px;
-  height: 100px;
+  width: 75%;
+  min-height: 100px;
   margin: 0 auto;
 }
 .inner h1{
@@ -39,25 +39,36 @@ html, body {
   text-align: center;
   padding-top: 20px;
 }
+.inner h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 10px;
+}
 .content .inner p{
   font-size: 15px;
   color: #747474
 
 }
 #header-line{
-  color: green;
-  margin: 0 37%;
-
+  margin: 10px 37%;
+  /*margin-top: 15px;*/
+  border: none;
+  height: 1px;
+  background-color: #59A426;
 }
 .bottom-margin{
   margin-bottom: 30px;
 }
-.content .inner h2{
-  font-size: 20px;
+.content .inner h4{
+padding-top: 30px;
 }
 .content .inner{
-  background-color: white;
+  background-color: #F2F2F2;
+  
 }
 .content .inner div{
-  margin: 0 100px;
+  margin: 0 180px;
+  min-height: 550px;
+  padding-top: 60px;
 }
