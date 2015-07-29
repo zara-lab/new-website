@@ -9,7 +9,7 @@ html, body {
 .header {
   height: 100px;
   color: #ffffff;
-  border-top: 3px solid #00ff00;
+  border-top: 3px solid #008000;
   background-color: rgba(0,0,0, .5);
 }
 
@@ -21,5 +21,63 @@ html, body {
 .footer {
   height: 200px;
   color: #ffffff;
-  background-color: rgba(0,0,0, .5);
+  background-image: url("../Images/11.jpg");
+  min-height: 200px;
+}
+.holder{
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+}
+.inner{
+	;
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+	border-bottom: 1px solid #7cfc00;
+}
+
+.inner{
+	margin: 0 auto;
+	text-align:center;
+	margin: 0 auto;
+}
+
+.inner a{
+	color:#fff;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	margin:25px 5px 0 5px;
+	text-decoration:none;
+}
+.bottom-foot{
+	height:99px;
+}
+.logo{
+	width: 100px;
+}
+.logo a{
+	color:#fff;
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	margin:25px 5px 0 5px;
+	text-decoration:none;
+}
+.powered{
+	display:inline;
+	height:20px;
+	color: #778899;
+	text-align:right;
+	font-size: 13px;	
+}
+.copyright{
+	text-align: left;
+	width: 100px;
+}
+.powered-right{
+	width:150px;
+	text-align: right;
+	color:#fff;
 }
