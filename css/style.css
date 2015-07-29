@@ -14,7 +14,6 @@ html, body {
 
 .header ul { 
   float:right;
-  // margin: 35px 10px 10px 10px;
   margin-top:4.5%;
   margin-right:0;
 }
@@ -57,4 +56,3 @@ html, body {
   height: 100px;
   margin: 0 auto;
 }
-
