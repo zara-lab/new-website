@@ -12,6 +12,29 @@ html, body {
   background-color: rgba(0,0,0, .5);
 }
 
+.header ul { 
+  float:right;
+  // margin: 35px 10px 10px 10px;
+  margin-top:4.5%;
+  margin-right:0;
+}
+
+.header ul li {
+  display:inline-block;
+  list-style-type:none;
+  padding-right:20px;
+}
+
+.header ul li a {
+  text-decoration:none;
+  color:#ffffff;
+  font-size:1.3em;
+}
+
+.header ul li:hover a {
+ color:#00ff00;
+}
+
 .content {
   background-color: rgba(0,0,0, .1);
 }
