@@ -1,65 +1,58 @@
 html, body {
-  margin: 0;
-  color: #333;
-  background: #fff;
-  font-size: 16px;
-  font-family: "Tahoma", "Calibri", sans-serif;
+	margin: 0;
+    color: #333;
+    background: #fff;
+    font-size: 16px;
+    font-family: "Tahoma", "Calibri", sans-serif;
 }
 
 .header {
-  color: #ffffff;
-  border-top: 3px solid #008000;
-  background-color: rgba(0,0,0, .5);
+    color: #ffffff;
+    border-top: 3px solid #008000;
+    background-color: rgba(0,0,0, .5);
 }
 
 .content {
-  background-color: rgba(0,0,0, .1);
+    background-color: rgba(0,0,0, .1);
 }
 
 .content .inner {
-  min-height: 400px;
+    min-height: 400px;
 }
 
 .footer {
-  color: #ffffff;
-  background-image: url("../Images/11.jpg");
-  min-height: 200px;
+    color: #ffffff;
+    background-image: url("../Images/11.jpg");
+    min-height: 200px;
 }
 
 
 .footer .inner {
-  height: 200px;
+    height: 100px;
 }
 
 .inner {
-  width: 800px;
-  height: 100px;
-  margin: 0 auto;
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
 }
 
-
-
-
-.holder{
+.holder {
 	width: 900px;
 	height: 200px;
 	margin: 0 auto;
 }
-.inner{
-	;
+
+
+.inner {
+	text-align: center;
 	width: 900px;
 	height: 100px;
 	margin: 0 auto;
 	border-bottom: 1px solid #7cfc00;
 }
 
-.inner{
-	margin: 0 auto;
-	text-align:center;
-	margin: 0 auto;
-}
-
-.inner a{
+.inner a {
 	color:#fff;
 	display: inline-block;
 	width: 150px;
@@ -67,13 +60,16 @@ html, body {
 	margin:25px 5px 0 5px;
 	text-decoration:none;
 }
-.bottom-foot{
+
+.bottom-foot {
 	height:99px;
 }
-.logo{
+
+.logo {
 	width: 100px;
 }
-.logo a{
+
+.logo a {
 	color:#fff;
 	display: inline-block;
 	width: 150px;
@@ -81,19 +77,23 @@ html, body {
 	margin:25px 5px 0 5px;
 	text-decoration:none;
 }
-.powered{
-	display:inline;
+
+.powered {
 	height:20px;
-	color: #778899;
-	text-align:right;
+	color: #fff;
 	font-size: 13px;	
 }
-.copyright{
-	text-align: left;
+
+.copyright {
+	padding-top: 13px;
+	display: inline-block;
+	margin: 0 auto;
 	width: 100px;
 }
-.powered-right{
-	width:150px;
-	text-align: right;
-	color:#fff;
+
+.powered-right {
+	padding-top: 13px;
+	width: 150px;
+	display:inline-block;
+	margin: 0 auto;
 }
