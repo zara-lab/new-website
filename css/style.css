@@ -59,6 +59,7 @@ html, body {
 	height: 50px;
 	margin:25px 5px 0 5px;
 	text-decoration:none;
+	outline: none;
 }
 
 .bottom-foot {
