@@ -1,37 +1,126 @@
 html, body {
-  margin: 0;
-  color: #333;
-  background: #fff;
-  font-size: 16px;
-  font-family: "Tahoma", "Calibri", sans-serif;
+	margin: 0;
+	color: #333;
+	background: #fff;
+	font-size: 16px;
+	font-family: "Tahoma", "Calibri", sans-serif;
 }
 
 .header {
-  color: #ffffff;
-  border-top: 3px solid #00ff00;
-  background-color: rgba(0,0,0, .5);
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	color: #ffffff;
+	background-color: #999999;
+	border-top: 3px solid #008000;
 }
 
-.content {
-  background-color: rgba(0,0,0, .1);
+.header .inner{
+	width: 500px;
+	height: auto;
+	margin-right: 0;
+	border-bottom:none;
+}
+.header .inner a{
+	font-weight: bold;
+	letter-spacing: 1px;
+	width: 100px;
+	height: auto;
+	margin-top:40px;
 }
 
-.content .inner {
-  min-height: 400px;
+.header .inner a:hover {
+	color:#008000 ;
+}
+
+.content{
+	margin: 0 auto;
+	background-color: #696969;
+	width: 1000px;
 }
 
 .footer {
-  color: #ffffff;
-  background-color: rgba(0,0,0, .5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+	background-image: url("../images/11.jpg");
+	min-height: 200px;
+	bottom: 0;
 }
 
+
 .footer .inner {
-  height: 200px;
+	height: 100px;
 }
 
 .inner {
-  width: 800px;
-  height: 100px;
-  margin: 0 auto;
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
 }
 
+.holder {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+
+.inner {
+	text-align: center;
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	border-bottom: 2px solid #008000;
+}
+
+.inner a {
+	color:#fff;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	margin:25px 5px 0 5px;
+	text-decoration:none;
+	outline: none;
+}
+
+.bottom-foot {
+	height:99px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.logo a {
+	color:#fff;
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	margin:25px 5px 0 5px;
+	text-decoration:none;
+}
+
+.powered {
+	height:20px;
+	color: #fff;
+	font-size: 13px;	
+}
+
+.copyright {
+	padding-top: 13px;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+}
+
+.powered-right {
+	padding-top: 13px;
+	width: 150px;
+	display:inline-block;
+	margin: 0 auto;
+}
