@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.php.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/php-project/1">
+            <name>ZaraLab</name>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>Hackerspace</word>
+            <word>Sybitiq</word>
+            <word>ZaraLab</word>
+            <word>Вклщчи</word>
+            <word>Включи</word>
+            <word>Галерия</word>
+            <word>Глерия</word>
+            <word>За</word>
+            <word>занимаваме</word>
+            <word>Контакти</word>
+            <word>мисия</word>
+            <word>Нас</word>
+            <word>Проекти</word>
+            <word>се</word>
+            <word>специялистите</word>
+            <word>Събития</word>
+            <word>Учим</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
