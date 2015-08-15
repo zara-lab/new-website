@@ -26,7 +26,7 @@ if (isset($_POST['name'] ,$_POST['email'] ,$_POST['message'])) {
         $mail->Host       = "smtp.gmail.com";
         $mail->Port       = 587;
 
-        $mail->Username   = "MAILTODO@gmail.com";  // GMAIL username
+        $mail->Username   = "MAILTODOO@gmail.com";  // GMAIL username
         $mail->Password   = "PASS";            // GMAIL password
         
         $mail->SetFrom('MAILTODO@gmail.com', 'ZaraLab');
